@@ -1,3 +1,11 @@
 .profile__info {
-  justify-self: self-start;
+  width: 336px;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .profile__info {
+    width: 282px;
+    margin-bottom: 36px;
+  }
 }

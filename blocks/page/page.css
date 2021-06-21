@@ -5,8 +5,14 @@
   /* display: flex; */
   /* flex-direction: column; */
   /* align-items: center; */
-  width: 1280px;
-  height: 1217px;
+  max-width: 1280px;
+  /* height: 1217px; */
   background-color: #000000;
   border: 1px solid red;
+}
+
+@media (max-width: 767px) {
+  .page {
+    padding: 28px 0 36px;
+  }
 }

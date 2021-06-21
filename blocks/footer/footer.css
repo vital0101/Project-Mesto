@@ -1,6 +1,13 @@
 .footer {
-  width: 318px;
-  height: 18px;
-  border: 1px solid red;
-  margin-left: 200px;
+  margin: 0 auto;
+  max-width: 880px;
+  /* height: 18px; */
+  /* border: 1px solid red; */
+  /* margin-left: 200px; */
+}
+
+@media (max-width: 767px) {
+  .footer {
+    max-width: 282px;
+  }
 }
