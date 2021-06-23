@@ -9,7 +9,6 @@
   padding: 0;
   padding-bottom: 66px;
   list-style-type: none;
-  justify-content: space-between;
 }
 
 @media (max-width: 767px) {
