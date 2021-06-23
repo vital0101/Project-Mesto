@@ -1,8 +1,13 @@
 .elements__suffix {
   align-self: flex-end;
+  margin-left: 20px;
+  cursor: pointer;
 }
 
 .elements__suffix:hover {
   opacity: 0.5;
-  cursor: pointer;
+}
+
+.elements__suffix:active {
+  background-image: url(../../../image/vector/Unionvector.svg);
 }

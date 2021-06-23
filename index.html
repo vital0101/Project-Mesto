@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
-  <body>
+  <body class="body-background">
     <div class="page">
       <div class="header">
         <img src="./image/logo/logo.svg" alt="" class="header__logo" />
@@ -33,13 +33,9 @@
         </div>
         <ul class="elements">
           <li class="list-item">
-            <img
-              src="./image/kirill-pershin-1088404-unsplash.jpg"
-              alt=""
-              class="elements__item"
-            />
+            <img src="./image/place-kosa.jpg" alt="" class="elements__item" />
             <div class="box">
-              <p class="elements__title">Карачаевск</p>
+              <p class="elements__title">Куршская коса</p>
               <img
                 src="./image/vector/Suffix.svg"
                 alt=""
@@ -49,12 +45,12 @@
           </li>
           <li class="list-item">
             <img
-              src="./image/kirill-pershin-1088404-unsplash.jpg"
+              src="./image/photo-grid-kamchatka-1.jpg"
               alt=""
               class="elements__item"
             />
             <div class="box">
-              <p class="elements__title">Карачаевск</p>
+              <p class="elements__title">Камчатка</p>
               <img
                 src="./image/vector/Suffix.svg"
                 alt=""
@@ -64,12 +60,12 @@
           </li>
           <li class="list-item">
             <img
-              src="./image/kirill-pershin-1088404-unsplash.jpg"
+              src="./image/place-karelia.jpg"
               alt=""
               class="elements__item"
             />
             <div class="box">
-              <p class="elements__title">Карачаевск</p>
+              <p class="elements__title">Карелия</p>
               <img
                 src="./image/vector/Suffix.svg"
                 alt=""
@@ -79,12 +75,12 @@
           </li>
           <li class="list-item">
             <img
-              src="./image/kirill-pershin-1088404-unsplash.jpg"
+              src="./image/photo-grid-elbrus.jpg"
               alt=""
               class="elements__item"
             />
             <div class="box">
-              <p class="elements__title">Карачаевск</p>
+              <p class="elements__title">Эльбрус</p>
               <img
                 src="./image/vector/Suffix.svg"
                 alt=""
@@ -94,12 +90,12 @@
           </li>
           <li class="list-item">
             <img
-              src="./image/kirill-pershin-1088404-unsplash.jpg"
+              src="./image/photo-grid-baikal-2.jpg"
               alt=""
               class="elements__item"
             />
             <div class="box">
-              <p class="elements__title">Карачаевск</p>
+              <p class="elements__title">Байкал</p>
               <img
                 src="./image/vector/Suffix.svg"
                 alt=""
@@ -108,17 +104,13 @@
             </div>
           </li>
           <li class="list-item">
-            <img
-              src="./image/kirill-pershin-1088404-unsplash.jpg"
-              alt=""
-              class="elements__item"
-            />
+            <img src="./image/place-kosa.jpg" alt="" class="elements__item" />
             <div class="box">
-              <p class="elements__title">Карачаевск</p>
+              <p class="elements__title">Карачаево - Черкессия</p>
               <img
                 src="./image/vector/Suffix.svg"
                 alt=""
-                class="elements__suffix elements__suffix_active"
+                class="elements__suffix"
               />
             </div>
           </li>
@@ -127,6 +119,29 @@
       <div class="footer">
         <p class="footer__copyright">© 2020 Mesto Russia</p>
       </div>
+      <form class="popup popup_opened" action="#">
+        <div class="popup__conteiner">
+          <img class="popup__toggle" src="./image/vector/toggle.svg" alt="" />
+          <h1 class="popup__title">Редактировать профиль</h1>
+          <fieldset class="popup__contact-info">
+            <input
+              class="popup__item"
+              type="text"
+              name="username"
+              value=""
+              placeholder="Жак-Ив Кусто"
+            />
+            <input
+              class="popup__item"
+              type="text"
+              name="job"
+              value=""
+              placeholder="Исследователь океана"
+            />
+            <button class="popup__button" type="submit">Сохранить</button>
+          </fieldset>
+        </div>
+      </form>
     </div>
   </body>
 </html>
