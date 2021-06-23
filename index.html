@@ -10,27 +10,33 @@
   </head>
   <body class="body-background">
     <div class="page">
-      <div class="header">
+      <header class="header">
         <img src="./image/logo/logo.svg" alt="" class="header__logo" />
-      </div>
+      </header>
       <main class="content">
-        <div class="profile">
-          <img src="./image/Avatar.jpg" alt="" class="profile__avatar" />
+        <section class="profile">
+          <img
+            src="./image/Avatar.jpg"
+            alt="фотография"
+            class="profile__avatar"
+          />
           <div class="profile__info">
-            <h1 class="profile__title">Жак-Ив Кусто</h1>
-            <p class="profile__subtitle">Исследователь океана</p>
+            <div>
+              <h1 class="profile__title">Жак-Ив Кусто</h1>
+              <p class="profile__subtitle">Исследователь океана</p>
+            </div>
             <img
               src="./image/vector/Edit Button.svg"
-              alt=""
+              alt="кнопка редактирование профиля"
               class="profile__edit-button"
             />
           </div>
           <img
             src="./image/vector/add-button.svg"
-            alt=""
+            alt="кнопка добавить фотографии"
             class="profile__add-button"
           />
-        </div>
+        </section>
         <ul class="elements">
           <li class="list-item">
             <img src="./image/place-kosa.jpg" alt="" class="elements__item" />
@@ -116,32 +122,34 @@
           </li>
         </ul>
       </main>
-      <div class="footer">
+      <footer class="footer">
         <p class="footer__copyright">© 2020 Mesto Russia</p>
-      </div>
-      <form class="popup popup_opened" action="#">
+      </footer>
+      <section class="popup popup_opened">
         <div class="popup__conteiner">
           <img class="popup__toggle" src="./image/vector/toggle.svg" alt="" />
-          <h1 class="popup__title">Редактировать профиль</h1>
-          <fieldset class="popup__contact-info">
-            <input
-              class="popup__item"
-              type="text"
-              name="username"
-              value=""
-              placeholder="Жак-Ив Кусто"
-            />
-            <input
-              class="popup__item"
-              type="text"
-              name="job"
-              value=""
-              placeholder="Исследователь океана"
-            />
-            <button class="popup__button" type="submit">Сохранить</button>
-          </fieldset>
+          <h2 class="popup__title">Редактировать профиль</h2>
+          <form action="#">
+            <fieldset class="popup__contact-info">
+              <input
+                class="popup__item"
+                type="text"
+                name="username"
+                value=""
+                placeholder="Жак-Ив Кусто"
+              />
+              <input
+                class="popup__item"
+                type="text"
+                name="job"
+                value=""
+                placeholder="Исследователь океана"
+              />
+              <button class="popup__button" type="submit">Сохранить</button>
+            </fieldset>
+          </form>
         </div>
-      </form>
+      </section>
     </div>
   </body>
 </html>

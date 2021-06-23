@@ -11,7 +11,7 @@
   padding: 0;
   padding-bottom: 66px;
   list-style-type: none;
-  justify-content: space-evenly;
+  justify-content: space-between;
   /* flex-wrap: wrap; */
 }
 

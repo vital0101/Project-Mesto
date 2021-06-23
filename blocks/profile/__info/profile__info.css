@@ -1,11 +1,14 @@
 .profile__info {
   width: 336px;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 @media (max-width: 767px) {
   .profile__info {
     width: 282px;
     margin-bottom: 36px;
+    justify-content: center;
   }
 }
