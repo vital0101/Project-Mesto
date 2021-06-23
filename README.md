@@ -4,4 +4,4 @@
 
 В начальном проекте используется технологии flex и grid.
 
-Ссылка на сайт:
+Ссылка на сайт: https://vital0101.github.io/mesto-project/index.html
