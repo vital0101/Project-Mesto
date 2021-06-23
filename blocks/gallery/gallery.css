@@ -1,22 +1,19 @@
-.elements {
+.gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, 282px);
   column-gap: 17px;
   row-gap: 20px;
   align-items: center;
   max-width: 880px;
-  /* height: 361px; */
-  /* background-color: white; */
   margin: 0;
   padding: 0;
   padding-bottom: 66px;
   list-style-type: none;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
 }
 
 @media (max-width: 767px) {
-  .elements {
+  .gallery {
     max-width: 282px;
     margin: auto;
     padding-bottom: 48px;

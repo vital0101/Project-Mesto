@@ -1,8 +1,9 @@
 .popup__toggle {
-  margin-right: -470px;
+  margin-right: -75px;
   margin-top: -70px;
   width: 40px;
   position: absolute;
+  align-self: flex-end;
 }
 
 .popup__toggle:hover {

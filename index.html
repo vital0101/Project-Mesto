@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Mesto</title>
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="body-background">
     <div class="page">
       <header class="header">
-        <img src="./image/logo/logo.svg" alt="" class="header__logo" />
+        <img src="./image/logo/logo.svg" alt="логотип" class="header__logo" />
       </header>
       <main class="content">
         <section class="profile">
@@ -37,97 +37,111 @@
             class="profile__add-button"
           />
         </section>
-        <ul class="elements">
-          <li class="list-item">
-            <img src="./image/place-kosa.jpg" alt="" class="elements__item" />
-            <div class="box">
-              <p class="elements__title">Куршская коса</p>
+        <ul class="gallery">
+          <li class="gallery__list">
+            <img
+              src="./image/place-kosa.jpg"
+              alt="пейзаж берег моря"
+              class="gallery__img"
+            />
+            <div class="gallery__box">
+              <p class="gallery__title">Куршская коса</p>
               <img
                 src="./image/vector/Suffix.svg"
-                alt=""
-                class="elements__suffix elements__suffix_active"
+                alt="кнопка отметить фото"
+                class="gallery__suffix"
               />
             </div>
           </li>
-          <li class="list-item">
+          <li class="gallery__list">
             <img
               src="./image/photo-grid-kamchatka-1.jpg"
-              alt=""
-              class="elements__item"
+              alt="пейзаж горы в тумане"
+              class="gallery__img"
             />
-            <div class="box">
-              <p class="elements__title">Камчатка</p>
+            <div class="gallery__box">
+              <p class="gallery__title">Камчатка</p>
               <img
                 src="./image/vector/Suffix.svg"
-                alt=""
-                class="elements__suffix elements__suffix_active"
+                alt="кнопка отметить фото"
+                class="gallery__suffix"
               />
             </div>
           </li>
-          <li class="list-item">
+          <li class="gallery__list">
             <img
               src="./image/place-karelia.jpg"
-              alt=""
-              class="elements__item"
+              alt="пейзаж река по берегам лес"
+              class="gallery__img"
             />
-            <div class="box">
-              <p class="elements__title">Карелия</p>
+            <div class="gallery__box">
+              <p class="gallery__title">Карелия</p>
               <img
                 src="./image/vector/Suffix.svg"
-                alt=""
-                class="elements__suffix elements__suffix_active"
+                alt="кнопка отметить фото"
+                class="gallery__suffix"
               />
             </div>
           </li>
-          <li class="list-item">
+          <li class="gallery__list">
             <img
               src="./image/photo-grid-elbrus.jpg"
-              alt=""
-              class="elements__item"
+              alt="пейзаж горы"
+              class="gallery__img"
             />
-            <div class="box">
-              <p class="elements__title">Эльбрус</p>
+            <div class="gallery__box">
+              <p class="gallery__title">Эльбрус</p>
               <img
                 src="./image/vector/Suffix.svg"
-                alt=""
-                class="elements__suffix elements__suffix_active"
+                alt="кнопка отметить фото"
+                class="gallery__suffix"
               />
             </div>
           </li>
-          <li class="list-item">
+          <li class="gallery__list">
             <img
               src="./image/photo-grid-baikal-2.jpg"
-              alt=""
-              class="elements__item"
+              alt="пейзаж берег озера"
+              class="gallery__img"
             />
-            <div class="box">
-              <p class="elements__title">Байкал</p>
+            <div class="gallery__box">
+              <p class="gallery__title">Байкал</p>
               <img
                 src="./image/vector/Suffix.svg"
-                alt=""
-                class="elements__suffix elements__suffix_active"
+                alt="кнопка отметить фото"
+                class="gallery__suffix"
               />
             </div>
           </li>
-          <li class="list-item">
-            <img src="./image/place-kosa.jpg" alt="" class="elements__item" />
-            <div class="box">
-              <p class="elements__title">Карачаево - Черкессия</p>
+          <li class="gallery__list">
+            <img
+              src="./image/kirill-pershin-1556355-unsplash.png"
+              alt=""
+              class="gallery__img"
+            />
+            <div class="gallery__box">
+              <p class="gallery__title">Карачаево - Черкессия</p>
               <img
                 src="./image/vector/Suffix.svg"
-                alt=""
-                class="elements__suffix"
+                alt="пейзаж горы и лес"
+                class="gallery__suffix"
               />
             </div>
           </li>
         </ul>
+        -->
       </main>
       <footer class="footer">
         <p class="footer__copyright">© 2020 Mesto Russia</p>
       </footer>
-      <section class="popup popup_opened">
+      <!--'popup_opened' - модификатор блока popup для вызова модального окна  -->
+      <section class="popup">
         <div class="popup__conteiner">
-          <img class="popup__toggle" src="./image/vector/toggle.svg" alt="" />
+          <img
+            class="popup__toggle"
+            src="./image/vector/toggle.svg"
+            alt="кнопка закрытия окна"
+          />
           <h2 class="popup__title">Редактировать профиль</h2>
           <form action="#">
             <fieldset class="popup__contact-info">
