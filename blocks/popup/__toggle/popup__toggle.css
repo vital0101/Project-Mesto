@@ -1,9 +1,16 @@
 .popup__toggle {
   margin-right: -75px;
-  margin-top: -70px;
-  width: 40px;
+  margin-top: -85px;
+  width: 45px;
+  height: 45px;
   position: absolute;
   align-self: flex-end;
+  background-color: black;
+  border: none;
+  padding: 0;
+  background: transparent;
+  background-position: center;
+  background-image: url(../../../image/vector/toggle.svg);
 }
 
 .popup__toggle:hover {

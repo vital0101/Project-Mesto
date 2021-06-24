@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mesto</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="body-background">
@@ -25,124 +24,90 @@
               <h1 class="profile__title">Жак-Ив Кусто</h1>
               <p class="profile__subtitle">Исследователь океана</p>
             </div>
-            <img
-              src="./image/vector/edit-button.svg"
-              alt="кнопка редактирование профиля"
-              class="profile__edit-button"
-            />
+            <button type="button" class="profile__edit-button"></button>
           </div>
-          <img
-            src="./image/vector/add-button.svg"
-            alt="кнопка добавить фотографии"
-            class="profile__add-button"
-          />
+          <button type="button" class="profile__add-button"></button>
         </section>
-        <ul class="gallery">
-          <li class="gallery__list">
-            <img
-              src="./image/place-kosa.jpg"
-              alt="пейзаж берег моря"
-              class="gallery__img"
-            />
-            <div class="gallery__box">
-              <p class="gallery__title">Куршская коса</p>
+        <section>
+          <ul class="gallery">
+            <li class="gallery__list">
               <img
-                src="./image/vector/Suffix.svg"
-                alt="кнопка отметить фото"
-                class="gallery__suffix"
+                src="./image/place-kosa.jpg"
+                alt="пейзаж берег моря"
+                class="gallery__img"
               />
-            </div>
-          </li>
-          <li class="gallery__list">
-            <img
-              src="./image/photo-grid-kamchatka-1.jpg"
-              alt="пейзаж горы в тумане"
-              class="gallery__img"
-            />
-            <div class="gallery__box">
-              <p class="gallery__title">Камчатка</p>
+              <div class="gallery__box">
+                <p class="gallery__title">Куршская коса</p>
+                <button class="gallery__suffix"></button>
+              </div>
+            </li>
+            <li class="gallery__list">
               <img
-                src="./image/vector/Suffix.svg"
-                alt="кнопка отметить фото"
-                class="gallery__suffix"
+                src="./image/photo-grid-kamchatka-1.jpg"
+                alt="пейзаж горы в тумане"
+                class="gallery__img"
               />
-            </div>
-          </li>
-          <li class="gallery__list">
-            <img
-              src="./image/place-karelia.jpg"
-              alt="пейзаж река по берегам лес"
-              class="gallery__img"
-            />
-            <div class="gallery__box">
-              <p class="gallery__title">Карелия</p>
+              <div class="gallery__box">
+                <p class="gallery__title">Камчатка</p>
+                <button type="button" class="gallery__suffix"></button>
+              </div>
+            </li>
+            <li class="gallery__list">
               <img
-                src="./image/vector/Suffix.svg"
-                alt="кнопка отметить фото"
-                class="gallery__suffix"
+                src="./image/place-karelia.jpg"
+                alt="пейзаж река по берегам лес"
+                class="gallery__img"
               />
-            </div>
-          </li>
-          <li class="gallery__list">
-            <img
-              src="./image/photo-grid-elbrus.jpg"
-              alt="пейзаж горы"
-              class="gallery__img"
-            />
-            <div class="gallery__box">
-              <p class="gallery__title">Эльбрус</p>
+              <div class="gallery__box">
+                <p class="gallery__title">Карелия</p>
+                <button type="button" class="gallery__suffix"></button>
+              </div>
+            </li>
+            <li class="gallery__list">
               <img
-                src="./image/vector/Suffix.svg"
-                alt="кнопка отметить фото"
-                class="gallery__suffix"
+                src="./image/photo-grid-elbrus.jpg"
+                alt="пейзаж горы"
+                class="gallery__img"
               />
-            </div>
-          </li>
-          <li class="gallery__list">
-            <img
-              src="./image/photo-grid-baikal-2.jpg"
-              alt="пейзаж берег озера"
-              class="gallery__img"
-            />
-            <div class="gallery__box">
-              <p class="gallery__title">Байкал</p>
+              <div class="gallery__box">
+                <p class="gallery__title">Эльбрус</p>
+                <button type="button" class="gallery__suffix"></button>
+              </div>
+            </li>
+            <li class="gallery__list">
               <img
-                src="./image/vector/Suffix.svg"
-                alt="кнопка отметить фото"
-                class="gallery__suffix"
+                src="./image/photo-grid-baikal-2.jpg"
+                alt="пейзаж берег озера"
+                class="gallery__img"
               />
-            </div>
-          </li>
-          <li class="gallery__list">
-            <img
-              src="./image/kirill-pershin-1556355-unsplash.png"
-              alt=""
-              class="gallery__img"
-            />
-            <div class="gallery__box">
-              <p class="gallery__title">Карачаево - Черкессия</p>
+              <div class="gallery__box">
+                <p class="gallery__title">Байкал</p>
+                <button type="button" class="gallery__suffix"></button>
+              </div>
+            </li>
+            <li class="gallery__list">
               <img
-                src="./image/vector/Suffix.svg"
+                src="./image/kirill-pershin-1556355-unsplash.png"
                 alt="пейзаж горы и лес"
-                class="gallery__suffix"
+                class="gallery__img"
               />
-            </div>
-          </li>
-        </ul>
+              <div class="gallery__box">
+                <p class="gallery__title">Карачаево - Черкессия</p>
+                <button type="button" class="gallery__suffix"></button>
+              </div>
+            </li>
+          </ul>
+        </section>
       </main>
       <footer class="footer">
-        <p class="footer__copyright">© 2020 Mesto Russia</p>
+        <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
       </footer>
       <!--'popup_opened' - модификатор блока popup для вызова модального окна  -->
-      <section class="popup popup_opened">
+      <section class="popup">
         <div class="popup__conteiner">
-          <img
-            class="popup__toggle"
-            src="./image/vector/toggle.svg"
-            alt="кнопка закрытия окна"
-          />
+          <button type="button" class="popup__toggle"></button>
           <h2 class="popup__title">Редактировать профиль</h2>
-          <form action="#">
+          <form action="#" name="profile-info">
             <fieldset class="popup__contact-info">
               <input
                 class="popup__item"

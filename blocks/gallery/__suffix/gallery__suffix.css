@@ -1,6 +1,12 @@
 .gallery__suffix {
-  /* align-self: flex-end; */
-  /* margin-left: 20px; */
+  background-image: url(../../../image/vector/Suffix.svg);
+  height: 25px;
+  width: 30px;
+  border: none;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
   cursor: pointer;
 }
 
