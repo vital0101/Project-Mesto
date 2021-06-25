@@ -2,7 +2,6 @@
 @import url(../fonts/fonts.css);
 @import url(../blocks/body-background/body-background.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/form/form.css);
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__conteiner/popup__conteiner.css);
