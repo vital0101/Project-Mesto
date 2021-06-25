@@ -21,6 +21,7 @@
 @media (max-width: 767px) {
   .popup__toggle {
     height: 26px;
-    margin-right: -26px;
+    width: 26px;
+    margin-right: -16px;
   }
 }
