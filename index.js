@@ -1,15 +1,15 @@
-//const profileInfo = document.querySelector(".profile__info");
-//console.log(profileInfo);
+const profileInfo = document.querySelector(".profile__info");
 const profileEditButton = document.querySelector(".profile__edit-button");
-console.log(profileEditButton);
+const profileAddButton = document.querySelector(".profile__add-button");
+const popupToggle = document.querySelector(".popup__toggle");
 const popUp = document.querySelector(".popup");
-//console.log(popUp);
-// popUp.addEventListener("click");
 
 function openProfile() {
-  popUp.setAttribute("display", "block");
+  popUp.setAttribute("style", "display:block");
 }
-
 profileEditButton.addEventListener("click", openProfile);
 
-//popUp.hasAttribute("display");
+function closeProfile() {
+  popUp.setAttribute("style", "display:none");
+}
+popupToggle.addEventListener("click", closeProfile);
